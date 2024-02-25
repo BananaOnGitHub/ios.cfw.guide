@@ -23,6 +23,12 @@ If you're using an A8(X) iPad, at this time, you should follow <router-link to="
 
 ::: danger
 
+if you are currently using *rootful* palera1n, you need to first <router-link to="/removing-palera1n">Remove rootful palera1n</router-link> before proceeding.
+
+:::
+
+::: danger
+
 If you have previously used Serotonin and/or Bootstrap, you will need to remove them fully before proceeding.
 
 If you don't know what Bootstrap or Serotonin are, you can ignore this notice and proceed.
@@ -56,7 +62,9 @@ A12 and later devices are supported on iOS 15.0 to 15.6.1
 ### Installing TrollHelper
 
 1. Open Safari
-1. Go to [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
+1. Depending on your device, enter one of the following url's:
+    - If you're using an A12 or later device, enter [https://api.jailbreaks.app/troll64e](https://api.jailbreaks.app/troll64e)
+    - If you're using an A11 or earlier device, enter [https://api.jailbreaks.app/troll](https://api.jailbreaks.app/troll)
 1. Tap `Install`
 
 An app named `GTA Car Tracker` will now install to your iOS device, this app is TrollHelper, however.
@@ -137,9 +145,9 @@ Your device should respring, and TrollStore should now be installed.
 
 :::: tab name="TrollMisaka (15.7.2 to 15.8.1)"
 
-::: warning
+::: danger
 
-This method may have issues in some cases. If you are having repeated and unresolvable issues, you can follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> instead.
+This method can be very unreliable in some cases. If you are having issues with doing these steps, you can follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> instead.
 
 :::
 
@@ -223,6 +231,12 @@ Your device should respring, and TrollStore should now be installed.
 
 :::: tab name="TrollStar (16.2 to 16.6.1)"
 
+::: warning
+
+This method may have issues in some cases. If you are having repeated issues with this method, you can follow <router-link to="/installing-dopamine-sideloadly">Installing Dopamine (Sideloadly)</router-link> instead.
+
+:::
+
 ### Requirements
 
 - The Tips app installed to your device
@@ -265,10 +279,9 @@ This method may take several tries in order to work successfully.
 :::
 
 1. Open TrollStar
-1. Tap `kopen`
+1. Tap `Click here to start!`
     - If the device reboots, wait a few minutes, then try again
 1. Tap `Install TrollStore Helper to Tips`
-1. Wait 10-15 seconds, then tap `kclose`
 1. Tap `Respring to Apply`
 
 Your device will respring after you tap `Respring to Apply`.
